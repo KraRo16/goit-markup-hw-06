@@ -981,7 +981,7 @@ body {
 
 .contact-form-checkbox:checked+.contact-form-checkbox-label::before {
     background-color: var(--accent-color);
-    background-image: url(/images/icon/mark-icon.svg);
+    background-image: url(../images/icon/mark-icon.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
