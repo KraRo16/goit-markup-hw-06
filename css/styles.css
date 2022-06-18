@@ -790,6 +790,16 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-input:not(:placeholder-shown) {
+    color: #FFFFFF;
+}
+
+.subscription-input:focus,
+.subscription-input:hover {
+    border: 1px solid #188ce8;
 }
 
 /*=========== /CONTACT INFORMATION ===========*/
